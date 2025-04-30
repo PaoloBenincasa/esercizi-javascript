@@ -42,7 +42,9 @@ console.log(capitalizeFirstWordMap("ciao mondo"));
 // Trova il numero più grande: Scrivi una funzione che prenda un array di numeri interi come input e restituisca il numero più grande presente nell'array.
 
 function findBiggestNumber(array){
-    return Math.max(...array);
+    return Math.max(...array); 
 }
 
 console.log(findBiggestNumber([4, 84, 14, 21]));
+
+
