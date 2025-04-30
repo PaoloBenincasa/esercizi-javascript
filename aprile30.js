@@ -58,3 +58,27 @@ function compressString(str) {
 }
 
 console.log(compressString("aaabbc"));
+
+// Rimuovi i duplicati da un array: Scrivi una funzione che prenda un array di numeri interi come input e restituisca un nuovo array contenente solo gli elementi unici (rimuovendo i duplicati). L'ordine degli elementi nel nuovo array non è importante.
+
+function removeDuplicates(array){
+    let newArray = [];
+
+    for(let i =0; i < array.length; i++){
+        if(!newArray.includes(array[i])){
+            newArray.push(array[i]);
+        } 
+    }
+    return newArray;
+}
+
+console.log(removeDuplicates([2, 3, 4, 4, 5]));
+
+// Somma degli elementi di un array: Scrivi una funzione che prenda un array di numeri interi come input e restituisca la somma di tutti gli elementi dell'array.
+
+function sum(array){
+    return array.reduce((acc,el)=> acc +el);
+}
+
+console.log(sum([12, 12, 12]));
+
