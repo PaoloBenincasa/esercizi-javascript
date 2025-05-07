@@ -135,3 +135,4 @@ function uniteTwoArrays(array1, array2){
 
 console.log(uniteTwoArrays([1, 2, 3], [4, 5, 6]));
 
+
